@@ -6,7 +6,9 @@ using System.Web;
 using System.Web.Mvc;
 using Autofac;
 using Autofac.Integration.Mvc;
+using Autofac.IService;
 using Autofac.Lib;
+using Autofac.Service;
 
 namespace AutofacDemo
 {
@@ -30,6 +32,10 @@ namespace AutofacDemo
                 .AsImplementedInterfaces()
                 .InstancePerLifetimeScope()
                 .PropertiesAutowired(PropertyWiringOptions.AllowCircularDependencies);
+
+            //builder.RegisterType<TestService>()
+            //    .As<ITestService>()
+            //    .InstancePerRequest();
 
             var container = builder.Build();
 

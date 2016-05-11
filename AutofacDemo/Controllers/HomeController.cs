@@ -10,9 +10,19 @@ namespace AutofacDemo.Controllers
 {
     public class HomeController : Controller
     {
-        private ICacheProvider _CacheProvider = Ioc.GetService<ICacheProvider>();
+        //通过构造函数注入
+        public HomeController(ICacheProvider m_ICacheProvider, ITestService m_ITestService)
+        {
+            _CacheProvider = m_ICacheProvider;
+            _TestService = m_ITestService;
+        }
 
-        private ITestService _TestService = Ioc.GetService<ITestService>();
+        private ICacheProvider _CacheProvider;
+        private ITestService _TestService;
+
+        //通过GetService方法获得
+        //private ICacheProvider _CacheProvider = Ioc.GetService<ICacheProvider>();
+        //private ITestService _TestService = Ioc.GetService<ITestService>();
 
         public ActionResult Index()
         {

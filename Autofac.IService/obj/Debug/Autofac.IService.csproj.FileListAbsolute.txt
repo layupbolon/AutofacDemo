@@ -1,0 +1,4 @@
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.IService\bin\Debug\Autofac.IService.dll
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.IService\bin\Debug\Autofac.IService.pdb
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.IService\obj\Debug\Autofac.IService.dll
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.IService\obj\Debug\Autofac.IService.pdb

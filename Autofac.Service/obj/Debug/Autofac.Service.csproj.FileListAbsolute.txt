@@ -1,0 +1,7 @@
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.Service\bin\Debug\Autofac.Service.dll
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.Service\bin\Debug\Autofac.Service.pdb
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.Service\bin\Debug\Autofac.IService.dll
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.Service\bin\Debug\Autofac.IService.pdb
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.Service\obj\Debug\Autofac.Service.csprojResolveAssemblyReference.cache
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.Service\obj\Debug\Autofac.Service.dll
+D:\WorkSpace\net\MyCode\AutofacDemo\AutofacDemo\Autofac.Service\obj\Debug\Autofac.Service.pdb

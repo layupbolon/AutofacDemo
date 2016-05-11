@@ -41,6 +41,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestService.cs" />
+    <Compile Include="TestThreeService.cs" />
+    <Compile Include="TestTooService.cs" />
+    <Compile Include="TestZService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Autofac.IService\Autofac.IService.csproj">

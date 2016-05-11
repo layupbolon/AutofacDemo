@@ -8,7 +8,7 @@ namespace Autofac.Service
 
         public string GetId()
         {
-            return "这是测试数据";
+            return "这是第一个继承ITestService的类";
         }
 
         public void DoSomething()
